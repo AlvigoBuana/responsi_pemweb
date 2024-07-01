@@ -5,6 +5,12 @@
   <div>
     <AboutSection />
   </div>
+  <div>
+    <ContactSection />
+  </div>  
+  <div>
+    <ProjectsSection />
+  </div>
 </template>
 
 <script>
@@ -22,3 +28,12 @@ export default {
   }
 }
 </script>./Index.vue
+<style>
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #ff4d6d, #ffffff, #ff3e3e);
+}
+</style>

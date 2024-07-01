@@ -1,18 +1,6 @@
 <template>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'>
   <section class="hero">
-    <template>
-  <header>
-    <nav>
-      <ul>
-        <li><NuxtLink to="/AboutSection">About</NuxtLink></li>
-        <li><NuxtLink to="/ContactSection">Contact</NuxtLink></li>
-        <li><NuxtLink to="/ProjectSection">Project</NuxtLink></li>
-      </ul>
-    </nav>
-  </header>
-</template>
-
    <div class="container">
     <div class="main-body">
     
@@ -21,7 +9,7 @@
               <div class="card">
                 <div class="card-body">
                   <div class="d-flex flex-column align-items-center text-center">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                    <img src="https://i.pinimg.com/originals/2c/a4/48/2ca448cddb5bc49faaa653f61fbc8d4f.jpg" alt="Admin" class="rounded-circle" width="150">
                     <div class="mt-3">
                       <h4>Alvigo Wahyu Buana</h4>
                       <p class="text-secondary mb-1">Full Stack Developer</p>
@@ -34,7 +22,7 @@
               </div>
               <div class="card mt-3">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                  <li class="list-group-item d-flex  align-items-center flex-wrap">
                     <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>Website</h6>
                     <span class="text-secondary">https://github.com/AlvigoBuana</span>
                   </li>
@@ -187,6 +175,31 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: #f5f5f5;
+}
+
+.card {
+  background: linear-gradient(45deg, #dd6262, #e2bdbd); /* Gradient warna merah, putih, dan emas */
+  border: none; /* Hapus border jika tidak diperlukan */
+  border-radius: 8px; /* Ubah border-radius sesuai kebutuhan */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk efek visual */
+}
+
+.card-body {
+  padding: 1.25rem; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Ukuran font untuk judul card */
+  color: #000000; /* Warna teks judul */
+}
+
+.card-text {
+  color: #6c757d; /* Warna teks pada card */
+}
+
+.card-link {
+  color: #007bff; /* Warna link pada card */
 }
 </style>
+
+
