@@ -178,7 +178,7 @@ export default {
 }
 
 .card {
-  background: linear-gradient(45deg, #dd6262, #e2bdbd); /* Gradient warna merah, putih, dan emas */
+  background: linear-gradient(45deg, #df5656, #ffffff); /* Gradient warna merah, putih, dan emas */
   border: none; /* Hapus border jika tidak diperlukan */
   border-radius: 8px; /* Ubah border-radius sesuai kebutuhan */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk efek visual */
@@ -194,11 +194,17 @@ export default {
 }
 
 .card-text {
-  color: #6c757d; /* Warna teks pada card */
+  color: #bcda16; /* Warna teks pada card */
 }
 
 .card-link {
-  color: #007bff; /* Warna link pada card */
+  color: #d9ff00; /* Warna link pada card */
+}
+.custom-card-background {
+  background: linear-gradient(45deg, #df5656, #ffffff); /* Ganti dengan warna atau gambar background yang diinginkan */
+  border: none; /* Hapus border jika tidak diperlukan */
+  border-radius: 8px; /* Sesuaikan border-radius sesuai kebutuhan */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk efek visual */
 }
 </style>
 
