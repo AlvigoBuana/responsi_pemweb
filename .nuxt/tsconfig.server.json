@@ -64,9 +64,6 @@
       "@vue/runtime-dom": [
         "../node_modules/@vue/runtime-dom"
       ],
-      "vue-router": [
-        "../node_modules/vue-router"
-      ],
       "@nuxt/schema": [
         "../node_modules/@nuxt/schema"
       ],
