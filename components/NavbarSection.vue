@@ -43,7 +43,7 @@ export default {
 }
 
 .logo {
-  color: #fff;
+  color: #0c0a0a;
   font-size: 1.8rem;
 }
 
@@ -63,7 +63,7 @@ export default {
 }
 
 a {
-  color: #fff;
+  color: #0e0c0c;
   text-decoration: none;
   padding: 10px 15px;
   transition: background-color 0.3s ease; /* Animasi untuk hover */
