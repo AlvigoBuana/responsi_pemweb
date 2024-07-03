@@ -47,7 +47,7 @@ export default {
 }
 
 .project {
-  background-color: #fff;
+  background-color: #ffffff00;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;

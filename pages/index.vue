@@ -13,6 +13,9 @@
     <div id="projects">
       <ProjectsSection />
     </div>
+    <div id="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -22,6 +25,7 @@ import AboutSection from '~/components/AboutSection.vue';
 import ProjectsSection from '~/components/ProjectsSection.vue';
 import ContactSection from '~/components/ContactSection.vue';
 import Navbar from '~/components/NavbarSection.vue';
+import Footer from '~/components/Footer.vue';
 
 export default {
   components: {
@@ -29,7 +33,8 @@ export default {
     AboutSection,
     ContactSection,
     ProjectsSection,
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>
