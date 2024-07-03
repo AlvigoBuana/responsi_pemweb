@@ -24,7 +24,7 @@ export default {
 <style scoped>
 /* Styling navbar */
 .navbar {
-  background : linear-gradient(180deg ,#dfb23700,#e7e5d7 );
+  background-color: #e7d7d78a;
   position: fixed;
   top: 0;
   left: 0;

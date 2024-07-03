@@ -7,7 +7,7 @@
         </div>
 
         <!-- Contact Card -->
-        <div class="card mt-5 mb-5" id="contact-section">
+        <div class="card mt-5" id="contact-section" >
           <h2 class="card-title text-center">Contact</h2>
           <ul class="list-group list-group-flush">
             <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center flex-wrap">
@@ -110,7 +110,7 @@ export default {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 14px;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .list-group-item {
