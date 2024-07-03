@@ -8,8 +8,8 @@
           <p class="custom-text-secondary mb-2">Saya Alvigo Wahyu Buana adalah seorang mahasiswa dari Universitas Amikom Yogyakarta, saya berasal dari jawa tengah. Saya suka bermain game dan mendengarkan musik. saya juga suka pergi ke luar negri sebulan sekali.</p>
           <p class="custom-text-secondary mb-2">Namun, karena saya tidak memiliki cukup biaya untuk hal tersebut, saya hanya rebahan di kosan saja.</p>
           <div class="mt-4">
-            <button class="btn custom-btn">Follow</button>
-            <button class="btn custom-btn">Message</button>
+            <a href="#contact-section" class="btn custom-btn">Follow</a>
+            <a href="#message-section" class="btn custom-btn">Message</a>
           </div>
         </div>
         <div class="img-body">
@@ -41,6 +41,7 @@ export default {
   margin-top: auto;
   margin-right: 70px;
   margin-bottom: 100px;
+  color: #ffc400;
 }
 
 .img-body {
@@ -80,6 +81,6 @@ export default {
 }
 
 .custom-btn:hover {
-  background-color: #0056b3; /* Warna latar belakang tombol saat hover */
+  background-color: #7e4a4a; /* Warna latar belakang tombol saat hover */
 }
 </style>

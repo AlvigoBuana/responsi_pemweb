@@ -1,12 +1,14 @@
 <template>
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'>
   <section class="hero">
     <div class="container">
       <div class="main-body">
         <div>
           <h1 class="mb-5 text-center">CONTACT ME</h1>
         </div>
-        <div class="card mt-3">
+
+        <!-- Contact Card -->
+        <div class="card mt-5 mb-5" id="contact-section">
+          <h2 class="card-title text-center">Contact</h2>
           <ul class="list-group list-group-flush">
             <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center flex-wrap">
               <h6 class="mb-0">
@@ -17,8 +19,9 @@
                 </svg>
                 Website
               </h6>
-              <span class="custom-text-secondary">https://github.com/AlvigoBuana</span>
+              <a href="https://github.com/AlvigoBuana" class="custom-text-secondary">https://github.com/AlvigoBuana</a>
             </li>
+            <hr>
             <li class="list-group-item bg-transparent d-flex justify-content-between align-items-start">
               <div class="d-flex align-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github mr-2 icon-inline">
@@ -26,8 +29,9 @@
                 </svg>
                 <h6 class="mb-0">Github</h6>
               </div>
-              <span class="custom-text-secondary mt-2">https://github.com/AlvigoBuana</span>
+              <a href="https://github.com/AlvigoBuana" class="custom-text-secondary mt-2">https://github.com/AlvigoBuana</a>
             </li>
+            <hr>
             <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center flex-wrap">
               <h6 class="mb-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter mr-2 icon-inline text-info">
@@ -35,8 +39,9 @@
                 </svg>
                 Twitter
               </h6>
-              <span class="custom-text-secondary">@AlvigoBuana</span>
+              <a class="custom-text-secondary">@AlvigoBuana</a>
             </li>
+            <hr>
             <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center flex-wrap">
               <h6 class="mb-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram mr-2 icon-inline text-danger">
@@ -46,19 +51,43 @@
                 </svg>
                 Instagram
               </h6>
-              <span class="custom-text-secondary">@alvgwb_07</span>
+              <a href="https://www.instagram.com/alvgwb_/" class="custom-text-secondary">@alvgwb_</a>
             </li>
-            <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center flex-wrap">
+            <hr>
+            <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center flex-wrap" id="message-section">
               <h6 class="mb-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook mr-2 icon-inline text-primary">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                 </svg>
                 Facebook
               </h6>
-              <span class="custom-text-secondary">Alvigo</span>
+              <a href="https://web.facebook.com/Alvigo.07/?locale=id_ID" class="custom-text-secondary">Alvigo</a>
             </li>
+            <hr>
           </ul>
         </div>
+        <!-- Message Me Card -->
+        <div class="card mt-5">
+          <h2 class="card-title text-center">Message Me</h2>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -77,8 +106,11 @@ export default {
 }
 
 .card {
-  background: transparent;
-  border: none;
+  background: #c0262641;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .list-group-item {
@@ -86,7 +118,46 @@ export default {
   border: none;
 }
 
+.card-title {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
 .custom-text-secondary {
   color: #000000;
+}
+.form-group{
+  margin-bottom: 15px;
+  text-align: left;
+}
+.form-control {
+  background: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.form-control::placeholder {
+  color: #ffffff9f;
+}
+
+.btn-primary {
+  background-color: #7e4a4a;
+  border-color: #7e4a4a;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #7e4a4a;
+  border-color: #7e4a4a;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
 }
 </style>
