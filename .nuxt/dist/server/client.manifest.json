@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "D:/Semester 4/Pemrograman Web/responsi/responsi_pemweb/node_modules/nuxt/dist/app/entry.js": {
+  "D:/22.11.4737/responsi/responsi_pemweb/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "D:/Semester 4/Pemrograman Web/responsi/responsi_pemweb/node_modules/nuxt/dist/app/entry.js"
+    "file": "D:/22.11.4737/responsi/responsi_pemweb/node_modules/nuxt/dist/app/entry.js"
   }
 }
